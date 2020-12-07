@@ -21,3 +21,5 @@ This repo contains 3 metadata files that consist of pulmonary edema severity gra
 # Pulmonary edema severity grading
 
 Clinical management decisions for patients with acutely decompensated heart failure and many other diseases are often based on grades of pulmonary edema severity, rather than its mere absence or presence. Clinicians often monitor changes in pulmonary edema severity to assess the efficacy of therapy. Accurate monitoring of pulmonary edema is essential when competing clinical priorities complicate clinical management. The extracted pulmonary edema severity labels in this repo were numerically coded as follows: 0, none; 1, vascular congestion; 2, interstitial edema; and 3, alveolar edema. Examples of the grades are shown below. 
+
+![https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/figures/pe_examples.png](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/figures/pe_examples.png?raw=true)
