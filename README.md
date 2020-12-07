@@ -2,7 +2,7 @@
 Pulmonary edema severity grades based on the [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/) dataset.   
 
 # Overview 
-This repo contains 3 metadata files that consist of pulmonary edema severity grades extracted from the MIMIC-CXR dataset through different means. The metadata files have subject ID, study ID, DICOM ID, and the numerical grades of pulmonary edema severity. The IDs listed in this repo have the same mapping structure as in [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/). 
+This repo contains 3 metadata files that consist of pulmonary edema severity grades extracted from the MIMIC-CXR dataset through different means. The metadata files have subject IDs, study IDs, DICOM IDs, and the numerical grades of pulmonary edema severity. The IDs listed in this repo have the same mapping structure as in [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/). 
 
 - **Regular expression labeling from radiology reports.**
 
@@ -15,3 +15,5 @@ This repo contains 3 metadata files that consist of pulmonary edema severity gra
 - **Consensus labeling from chest radiographs.**
 
   Three senior radiology residents and one attending radiologist have labeled 141 chest radiographs. They assessed the images indepdnetently, discussed and voted on the ones that they disagreed on until a consensus was reached.  
+
+# Pulmonary edema severity grading
