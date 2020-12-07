@@ -14,6 +14,8 @@ This repo contains 3 metadata files that consist of pulmonary edema severity gra
   
 - **Consensus labeling from chest radiographs.**
 
-  Three senior radiology residents and one attending radiologist have labeled 141 chest radiographs. They assessed the images indepdnetently, discussed and voted on the ones that they disagreed on until a consensus was reached.  
+  Three senior radiology residents and one attending radiologist have labeled 141 chest radiographs. They assessed the images indepdnetently, discussed and voted on the ones that they disagreed on until a consensus was reached, detailed below. This label set is the *highest-quality* among the three sets, and we recommend holding it out for testing.
+  
+  ![https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/figures/consensus_image_labeling.png](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/figures/consensus_image_labeling.png?raw=true)
 
 # Pulmonary edema severity grading
