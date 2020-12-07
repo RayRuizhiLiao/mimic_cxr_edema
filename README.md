@@ -10,7 +10,7 @@ This repo contains 3 metadata files that consist of pulmonary edema severity gra
 
 - **Expert labeling from radiology reports.**
 
-  A board-certified radiologist and two domain experts have read 485 radiology reports and give pulmonary edema severity grades based on the reports.
+  A board-certified radiologist and two domain experts have read 485 radiology reports and give pulmonary edema severity grades based on the reports. More details can be found [here](https://arxiv.org/pdf/2008.09884.pdf).
   
 - **Consensus labeling from chest radiographs.**
 
