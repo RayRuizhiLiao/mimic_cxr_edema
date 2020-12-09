@@ -6,7 +6,7 @@ This repo contains 3 metadata files that consist of pulmonary edema severity gra
 
 - **Regular expression labeling from radiology reports.**
 
-  [regex_report_edema_severity.csv](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/regex_report_edema_severity.csv). The edema severity grades were extracted from radiology reports using regular expression (regex). More details and the code of this approach can be found [here](https://github.com/RayRuizhiLiao/regex_pulmonary_edema/). **6710 radiology reports** were able to be labeled by regex.
+  [regex_report_edema_severity.csv](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/regex_report_edema_severity.csv). The edema severity grades were extracted from radiology reports using regular expression (regex). More details and the code of this approach can be found [here](https://github.com/RayRuizhiLiao/regex_pulmonary_edema/). Regex was able to label **6710 radiology reports**.
 
 - **Expert labeling from radiology reports.**
 
