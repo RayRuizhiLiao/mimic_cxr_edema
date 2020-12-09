@@ -6,15 +6,15 @@ This repo contains 3 metadata files that consist of pulmonary edema severity gra
 
 - **Regular expression labeling from radiology reports.**
 
-  [regex_report_edema_severity.csv](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/regex_report_edema_severity.csv). The edema severity grades were extracted from **radiology reports** using regular expression (regex). More details and the code of this approach can be found [here](https://github.com/RayRuizhiLiao/regex_pulmonary_edema/).
+  [regex_report_edema_severity.csv](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/regex_report_edema_severity.csv). The edema severity grades were extracted from radiology reports using regular expression (regex). More details and the code of this approach can be found [here](https://github.com/RayRuizhiLiao/regex_pulmonary_edema/). **6710 radiology reports** were able to be labeled by regex.
 
 - **Expert labeling from radiology reports.**
 
-  [expert_report_edema_severity.csv](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/expert_report_edema_severity.csv). A board-certified radiologist and two domain experts have read 485 radiology reports and give pulmonary edema severity grades based on the **radiology reports**. More details can be found [here](https://arxiv.org/pdf/2008.09884.pdf). 
+  [expert_report_edema_severity.csv](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/expert_report_edema_severity.csv). A board-certified radiologist and two domain experts have read **485 radiology reports** and give pulmonary edema severity grades based on the reports. More details can be found [here](https://arxiv.org/pdf/2008.09884.pdf). 
   
 - **Consensus labeling from chest radiographs.**
 
-  [consensus_image_edema_severity.csv](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/consensus_image_edema_severity.csv). Three senior radiology residents and one attending radiologist have labeled 141 chest radiographs. They assessed the **images** indepdnetently, discussed and voted on the ones that they disagreed on until a consensus was reached, detailed below. This label set is the *highest-quality* among the three sets, and we recommend holding it out for testing.
+  [consensus_image_edema_severity.csv](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/consensus_image_edema_severity.csv). Three senior radiology residents and one attending radiologist have labeled **141 chest radiographs**. They assessed the images indepdnetently, discussed and voted on the ones that they disagreed on until a consensus was reached, detailed below. This label set is the *highest-quality* among the three sets, and we recommend holding it out for testing.
   
   ![https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/figures/consensus_image_labeling.png](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/figures/consensus_image_labeling.png?raw=true)
 
