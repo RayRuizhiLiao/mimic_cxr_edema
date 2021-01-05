@@ -26,11 +26,11 @@ Clinical management decisions for patients with acutely decompensated heart fail
 
 # References
 
-The label curation efforts have been closely related to the following publications:
+The label curation efforts have been presented in the following publications:
 
 G. Chauhan*, R. Liao*, W. Wells, J. Andreas, X. Wang, S. Berkowitz, S. Horng, P. Szolovits, P. Golland. [Joint Modeling of Chest Radiographs and Radiology Reports for Pulmonary Edema Assessment.](https://arxiv.org/pdf/2008.09884.pdf) *International Conference on Medical Image Computing and Computer-Assisted Intervention*, 2020. (* indicates equal contributions.)
 
-S. Horng*, R. Liao*, X. Wang, S. Dalal, P. Golland, S. Berkowitz. [Deep Learning to Quantify Pulmonary Edema in Chest Radiographs.](https://arxiv.org/pdf/2008.05975.pdf) *arXiv:2008.05975*. (* indicates equal contributions.)
+S. Horng*, R. Liao*, X. Wang, S. Dalal, P. Golland, S. Berkowitz. [Deep Learning to Quantify Pulmonary Edema in Chest Radiographs.](https://arxiv.org/pdf/2008.05975.pdf) *Radiology: Artificial Intelligence*. (* indicates equal contributions.)
 
 R. Liao, J. Rubin, G. Lam, S. Berkowitz, S. Dalal, W. Wells, S. Horng, P. Golland. [Semi-supervised Learning for Quantification of Pulmonary Edema in Chest X-Ray Images.](https://arxiv.org/pdf/1902.10785.pdf) *arXiv:1902.10785*.
 
