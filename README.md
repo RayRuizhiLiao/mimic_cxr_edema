@@ -16,9 +16,11 @@ Large-scale and common datasets have been the catalyst for the rise of machine l
 # Data Description 
 We aimed to identify patients with congestive heart failure (CHF) within the MIMIC-CXR dataset to limit confounding labels from other disease processes. There were 17,857 images in MIMIC-CXR which were acquired during visits with an emergency department discharge diagnosis code consistent with CHF. This resulted in 16,108 radiology reports and 1,916 patients that were included that had CHF. The label curation described below is performed within this CHF cohort. The cohort information is summarized in [auxiliary_metadata/mimic_cxr_metadata_available_CHF_view.csv](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/auxiliary_metadata/mimic_cxr_metadata_available_CHF_view.csv).
 
+The pulmonary edema severity grades are extracted from the MIMIC-CXR dataset through 3 different means, described as follows.
+
 - **Regular expression labeling from radiology reports.**
 
-  [regex_report_edema_severity.csv](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/regex_report_edema_severity.csv). The edema severity grades were extracted from radiology reports using regular expression (regex). More details and the code of this approach can be found [here](https://github.com/RayRuizhiLiao/regex_pulmonary_edema/). Regex was able to label **6710 radiology reports**.
+  [regex_report_edema_severity.csv](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/regex_report_edema_severity.csv). The edema severity grades were extracted from radiology reports using [regular expression (regex)](https://github.com/RayRuizhiLiao/regex_pulmonary_edema/). Each severity level is associated with several keyword terms that are representative of that severity group (e.g., "Kerley B lines" in "2-interstitial edema"). If multiple keyword terms are detected affirmed in a report, the most severe level will be assigned to that report. Within the 16,108 radiology reports in the CHF cohort, regex is able to label **6710 radiology reports**. 
 
 - **Expert labeling from radiology reports.**
 
