@@ -14,7 +14,7 @@ Clinical management decisions for patients with acutely decompensated heart fail
 Large-scale and common datasets have been the catalyst for the rise of machine learning today. In 2019, investigators released [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/), a large-scale publicly available chest radiograph dataset with free-text radiology reports. This dataset builds upon MIMIC-CXR, aiming to catalyze and benchmark future algorithmic developments in grading pulmonary edema severity from chest radiographs.
 
 # Data Description 
-This repo contains 3 metadata files that consist of pulmonary edema severity grades extracted from the MIMIC-CXR dataset through different means. The metadata files have subject IDs, study IDs, DICOM IDs, and the numerical grades of pulmonary edema severity. The IDs listed in this repo have the same mapping structure as in [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/). 
+We aimed to identify patients with congestive heart failure (CHF) within the MIMIC-CXR dataset to limit confounding labels from other disease processes. There were 17,857 images in MIMIC-CXR which were acquired during visits with an emergency department discharge diagnosis code consistent with CHF. This resulted in 16,108 radiology reports and 1,916 patients that were included that had CHF. The label curation described below is performed within this CHF cohort. The cohort information is summarized in [auxiliary_metadata/mimic_cxr_metadata_available_CHF_view.csv](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/auxiliary_metadata/mimic_cxr_metadata_available_CHF_view.csv).
 
 - **Regular expression labeling from radiology reports.**
 
