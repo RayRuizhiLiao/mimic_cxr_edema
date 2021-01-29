@@ -1,6 +1,13 @@
 # mimic_cxr_edema
 Pulmonary edema severity grades based on the [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/) dataset, also available on [PhysioNet](https://physionet.org/content/mimic-cxr-pe-severity). 
 
+# Abstract
+Clinical management decisions for patients with acutely decompensated heart failure and many other diseases are often based on grades of pulmonary edema severity, rather than its mere absence or presence. Chest radiographs are commonly performed to assess pulmonary edema. The MIMIC-CXR dataset that consists of 377,110 chest radiographs with free-text radiology reports offers a tremendous opportunity to study this subject.
+
+This dataset is curated based on MIMIC-CXR, containing 3 metadata files that consist of pulmonary edema severity grades extracted from the MIMIC-CXR dataset through different means: 1) by regular expression (regex) from radiology reports, 2) by expert labeling from radiology reports, and 3) by consensus labeling from chest radiographs.  
+
+This dataset aims to support the algorithmic development of pulmonary edema assessment from chest x-ray images and benchmark its performance. The metadata files have subject IDs, study IDs, DICOM IDs, and the numerical grades of pulmonary edema severity. The IDs listed in this dataset have the same mapping structure as in [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/).
+
 # Overview 
 This repo contains 3 metadata files that consist of pulmonary edema severity grades extracted from the MIMIC-CXR dataset through different means. The metadata files have subject IDs, study IDs, DICOM IDs, and the numerical grades of pulmonary edema severity. The IDs listed in this repo have the same mapping structure as in [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/). 
 
