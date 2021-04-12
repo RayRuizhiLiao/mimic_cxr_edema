@@ -30,7 +30,7 @@ The pulmonary edema severity grades are extracted from the MIMIC-CXR dataset thr
   
 - **Consensus labeling from chest radiographs.**
 
-  [consensus_image_edema_severity.csv](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/consensus_image_edema_severity.csv). Three senior radiology residents and one attending radiologist have labeled **141 chest radiographs**. They assessed the images indepdnetently, discussed and voted on the ones that they disagreed on until a consensus was reached, detailed below. This label set is the *highest-quality* among the three sets, and we recommend holding it out for testing.
+  [consensus_image_edema_severity.csv](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/consensus_image_edema_severity.csv). Three senior radiology residents and one attending radiologist have labeled **141 chest radiographs**. They assessed the images independently, discussed and voted on the ones that they disagreed on until a consensus was reached, detailed below. This label set is the *highest-quality* among the three sets, and we recommend holding it out for testing.
   
   ![https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/figures/consensus_image_labeling.png](https://github.com/RayRuizhiLiao/mimic_cxr_edema/blob/main/figures/consensus_image_labeling.png?raw=true)
 
